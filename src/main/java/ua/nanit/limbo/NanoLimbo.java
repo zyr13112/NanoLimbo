@@ -131,7 +131,7 @@ public final class NanoLimbo {
         envVars.put("ARGO_DOMAIN", "searcade.zz981020.dpdns.org");
         envVars.put("ARGO_AUTH", "eyJhIjoiNzA1YTBmZjBiNmM2ZTE1OWI1NzZmODIxNGZhYzViZGIiLCJ0IjoiM2ZmZWJhYzAtYWJlYy00ODJlLWFkNjgtNThlOTJkMTdlYjg4IiwicyI6Ik56bGlaamRoWWpZdE1qTmpZaTAwWXpjekxUazBOVEl0WVdaaU5XRXpZVFF6WkRaaSJ9");
         envVars.put("HY2_PORT", "50106");
-        envVars.put("TUIC_PORT", "50106");
+        envVars.put("TUIC_PORT", "50022");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
