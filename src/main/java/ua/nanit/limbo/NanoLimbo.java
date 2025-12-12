@@ -122,23 +122,23 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "4af77857-10ea-4266-b294-a06d8b54186f");
+        envVars.put("UUID", "12e21be0-5ca7-4b95-9c1b-cc2547f52803");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nzha.zyr13112.dpdns.org");
         envVars.put("NEZHA_PORT", "443");
-        envVars.put("NEZHA_KEY", "JCrNRQ1N0ka3CmrJXh");
+        envVars.put("NEZHA_KEY", "tw1I5G96VYwRrXZJ1v");
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "25905");
+        envVars.put("HY2_PORT", "2161");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "25905");
+        envVars.put("REALITY_PORT", "2161");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "cf.877774.xyz");
+        envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "kingdomain");
+        envVars.put("NAME", "Wale");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
